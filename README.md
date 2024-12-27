@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# مهامي - تطبيق إدارة المهام بالعربية 🌙
 
-## Getting Started
+تطبيق ويب متكامل لإدارة المهام اليومية، مصمم خصيصاً للمستخدمين العرب مع واجهة مستخدم جميلة وسهلة الاستخدام. يتيح التطبيق إدارة المهام بكفاءة مع مجموعة من المميزات المتقدمة.
 
-First, run the development server:
+![لقطة شاشة للتطبيق](./screenshot.png)
 
-```bash
+## ✨ المميزات الرئيسية
+
+- ⚡️ **تصميم عصري وسريع**: واجهة مستخدم سلسة وسريعة الاستجابة
+- 📱 **متجاوب بالكامل**: يعمل على جميع الأجهزة (الجوال، التابلت، الحاسوب)
+- 🎯 **تصنيف المهام**: تنظيم المهام حسب الفئات (شخصي، عمل، تسوق، دراسة، صحة)
+- ⏰ **تذكيرات**: إعداد تنبيهات للمهام المهمة
+- 🔍 **بحث متقدم**: البحث في المهام حسب العنوان والوصف
+- 📊 **إحصائيات**: عرض تفصيلي لإنجاز المهام
+- 💾 **حفظ تلقائي**: حفظ جميع المهام في المتصفح
+
+## 🛠 التقنيات المستخدمة
+
+- [Next.js 14](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Tabler Icons](https://tabler-icons.io/)
+
+## 🚀 التشغيل محلياً
+
+1. انسخ المستودع:
+\`\`\`bash
+git clone https://github.com/eneryu/TodoList-RTL.git
+cd TodoList-RTL
+\`\`\`
+
+2. ثبت الاعتماديات:
+\`\`\`bash
+npm install
+# أو
+yarn install
+\`\`\`
+
+3. شغل الخادم المحلي:
+\`\`\`bash
 npm run dev
-# or
+# أو
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. افتح [http://localhost:3000](http://localhost:3000) في متصفحك
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📝 المميزات التفصيلية
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### إدارة المهام
+- إضافة مهام جديدة مع عنوان ووصف
+- تحديد تاريخ استحقاق لكل مهمة
+- تصنيف المهام حسب الأولوية (منخفضة، متوسطة، عالية)
+- تعديل تفاصيل المهام في أي وقت
+- حذف المهام غير المطلوبة
 
-## Learn More
+### التنظيم والتصفية
+- تصنيف المهام حسب الفئات
+- فلترة المهام حسب الحالة (نشط، مكتمل، الكل)
+- ترتيب المهام حسب تاريخ الإنشاء، تاريخ الاستحقاق، أو الأولوية
+- بحث نصي في عناوين ووصف المهام
 
-To learn more about Next.js, take a look at the following resources:
+### التذكيرات والإشعارات
+- إعداد تذكيرات للمهام المهمة
+- إشعارات المتصفح للتذكير بالمهام
+- عرض المهام المتأخرة بشكل واضح
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### الإحصائيات والتتبع
+- عرض إجمالي المهام
+- تتبع المهام المكتملة والنشطة
+- نسبة الإنجاز مع شريط تقدم
+- إحصائيات حسب التصنيف والأولوية
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🤝 المساهمة
 
-## Deploy on Vercel
+نرحب بمساهماتكم! إذا وجدت خطأ أو لديك اقتراح لتحسين التطبيق:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. افتح Issue جديد
+2. أو أرسل Pull Request
+3. أو شارك اقتراحاتك في قسم المناقشات
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 الترخيص
+
+هذا المشروع مرخص تحت [MIT License](LICENSE)
